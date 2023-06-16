@@ -22,6 +22,7 @@ model User {
 
 8 - Criar o arquivo default para iniciar o prisma:
 Gerar o arquivo "index.ts", conforme abaixo:
+ <br />
 import { PrismaClient } from "prisma/client"
 
 const prisma = new PrismaClient();
