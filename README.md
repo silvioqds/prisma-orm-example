@@ -13,7 +13,8 @@
 
 6 - No arquivo tsconfig.json - Descomentar a linha "sourceMap:true"
 
-7 - Dentro do schema.prisma criar a model, exemplo abaixo:
+7 - Dentro do schema.prisma criar a model, exemplo abaixo: <br/>
+
 model User {
   id Int @id @default(autoincrement())
   email String @unique
