@@ -47,9 +47,9 @@ main()
     })
 
 
-APOS A CONFIGURAÇÃO NO PROJETO executar os comandos abaixo:
+APOS A CONFIGURAÇÃO NO PROJETO executar os comandos abaixo: <br />
 9 - npx prisma migrate dev --name init
-
+ <br />
 10 - npx ts-node script.ts
 
 
