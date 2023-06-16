@@ -15,10 +15,13 @@
 
 7 - Dentro do schema.prisma criar a model, exemplo abaixo: <br/>
 
-model User {
+model User {  <br />
   id Int @id @default(autoincrement())
+   <br />
   email String @unique
+   <br />
   name String?
+   <br />
 }
 
 8 - Criar o arquivo default para iniciar o prisma:
